@@ -9,6 +9,7 @@
 .metadata/
 .screenshots/
 .output/
+.tmh/
 
 # Arquivos temporários
 *.tmp

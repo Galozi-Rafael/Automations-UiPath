@@ -1,0 +1,6 @@
+{
+  "Name": "MoverArquivos",
+  "ProjectType": "Process",
+  "Description": "Cria um projeto que move arquivos de uma pasta para outra",
+  "MainFile": "Main.xaml"
+}
