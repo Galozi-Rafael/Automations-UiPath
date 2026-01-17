@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome ACME demo app",
+  "Type": "Screen",
+  "Id": "viJfNtsEM0CuhhLlhk9n1w",
+  "Reference": "gkl1JZxwZEOAMvG20JjdZw/viJfNtsEM0CuhhLlhk9n1w",
+  "ParentRef": "gkl1JZxwZEOAMvG20JjdZw/k05o4HM_3U2p4P4Fhc0v3g",
+  "Created": "2026-01-15T22:38:17.0110396Z",
+  "Updated": "2026-01-15T22:38:17.0110396Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

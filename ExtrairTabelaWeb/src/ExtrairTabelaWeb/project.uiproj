@@ -1,0 +1,6 @@
+{
+  "Name": "ExtrairTabela",
+  "ProjectType": "Process",
+  "Description": "Esse projeto tem como objetivo:\r\n\r\n1 - Abrir o site: \"https://demo.applitools.com/\";\r\n2 - Realizar o login;\r\n3 - Extrair os dados de uma tabela;\r\n5 - Salvar esses dados em uma planilha do Excel.",
+  "MainFile": "Main.xaml"
+}

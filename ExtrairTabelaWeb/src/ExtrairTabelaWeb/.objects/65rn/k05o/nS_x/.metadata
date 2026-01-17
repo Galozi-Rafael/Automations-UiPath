@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome ACME Demo App by Applitools",
+  "Type": "Screen",
+  "Id": "nS_x6Yne80-igVXKYF-QJA",
+  "Reference": "gkl1JZxwZEOAMvG20JjdZw/nS_x6Yne80-igVXKYF-QJA",
+  "ParentRef": "gkl1JZxwZEOAMvG20JjdZw/k05o4HM_3U2p4P4Fhc0v3g",
+  "Created": "2026-01-15T22:33:59.9407135Z",
+  "Updated": "2026-01-15T22:33:59.9407135Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

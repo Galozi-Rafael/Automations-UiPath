@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uRfpMBMNDUerYnzQHbdE1w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.applitools.com" CVScreenId="2243f628-8311-4e64-8284-865c2d12e9cc" CvElementArea="814, 827, 76, 35" CvTextArea="828, 835, 48, 18" CvTextArgument="Sign in" CvType="Button" DesignTimeRectangle="816, 829, 73, 31" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='log-in' tag='A' /&gt;" Guid="cc806f36-1812-4796-a136-37aea7402b9a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME Demo App by Applitools' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5769440983e6aac313c99590cef81693.png" xmlns="">0E7iSEDF8Fk6O3ONquTuLDw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

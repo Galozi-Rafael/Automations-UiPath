@@ -1,0 +1,156 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="WebService" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="WebService_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="WebService" sap:VirtualizedContainerService.HintSize="1339,1053" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="486,1030" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome ACME Demo App by Applitools" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,947" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="b1e5efd9-90d3-4cf2-a8ec-0a103b892ebb" Version="V2" WebDriverMode="[UiPath.UIAutomationNext.Enums.NWebDriverMode.Headless]">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,753" sap2010:WorkflowViewState.IdRef="Sequence_1">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="b1e5efd9-90d3-4cf2-a8ec-0a103b892ebb" Text="qualquer@email.com" Version="V5">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="demo.applitools.com" CVScreenId="c63ecb25-5b0a-4fba-969d-83d299748be0" ContentHash="Vn9hFVYsi0y_AQKqtL866Q" CvElementArea="816, 678, 292, 40" CvType="InputBox" DesignTimeRectangle="816, 679, 290, 38" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='username' tag='INPUT' type='text' class='form-control' placeholder='Enter your username' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="080ee010-0800-4f66-b700-023821032f9c" InformativeScreenshot="a406578f36233d948d72b938b145f110.png" IsResponsive="True" Reference="gkl1JZxwZEOAMvG20JjdZw/q6nmDm1AvEqR8UT74A1pSA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME Demo App by Applitools' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CVScreenId="c63ecb25-5b0a-4fba-969d-83d299748be0" CvTextArea="815, 657, 69, 13" CvTextArgument="Username" CvType="Text" DesignTimeRectangle="816, 654, 68, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Username' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Username' /&gt;" Guid="ff7c9647-079d-4c31-9827-91b603393e7c" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="b1e5efd9-90d3-4cf2-a8ec-0a103b892ebb" Text="qualquerpassword" Version="V5">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="demo.applitools.com" CVScreenId="2243f628-8311-4e64-8284-865c2d12e9cc" ContentHash="j9qmCOcNZkGoEGbPrpL98g" CvElementArea="815, 758, 292, 39" CvType="InputBox" DesignTimeRectangle="816, 759, 290, 37" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='form-control' placeholder='Enter your password' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="a359e82c-a3ac-4e13-ad7c-41a7c6b2fca9" InformativeScreenshot="89b6b40da7607bc923c0d4d520bd5b5a.png" Reference="gkl1JZxwZEOAMvG20JjdZw/7NeI95tb5k-zIjxkpywShA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME Demo App by Applitools' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CVScreenId="2243f628-8311-4e64-8284-865c2d12e9cc" CvTextArea="815, 736, 65, 13" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="816, 733, 65, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Password' /&gt;" Guid="cf1e2f8b-af7f-4c5c-a92c-f4db8d86831a" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sign in'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b1e5efd9-90d3-4cf2-a8ec-0a103b892ebb" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="demo.applitools.com" CVScreenId="2243f628-8311-4e64-8284-865c2d12e9cc" ContentHash="uRfpMBMNDUerYnzQHbdE1w" CvElementArea="814, 827, 76, 35" CvTextArea="828, 835, 48, 18" CvTextArgument="Sign in" CvType="Button" DesignTimeRectangle="816, 829, 73, 31" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='log-in' tag='A' /&gt;" Guid="cc806f36-1812-4796-a136-37aea7402b9a" InformativeScreenshot="5769440983e6aac313c99590cef81693.png" Reference="gkl1JZxwZEOAMvG20JjdZw/VCfVToOqvEqdBJ_bACddWg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME Demo App by Applitools' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.OCREngine>
+          <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+            <ActivityFunc.Argument>
+              <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+            </ActivityFunc.Argument>
+          </ActivityFunc>
+        </uix:NApplicationCard.OCREngine>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="PZVP8to2PkSrs7iPLeJoAA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAALAAAACwCAYAAACvt+ReAAAABGdBTUEAALGPC/xhBQAAC69JREFUeF7t3U9oHNcdB/BcfPQlORhCwGAfkqOvOfjcS8GXHUt13TQ11ARqSmnoJceC8aWVweTQEshtVolwHCe0kFAd2tRyZRMCUVIjGhG5wrOS0ezG6hvLs0bwwnc1ovHv93a1f2Z35u18Dx9wvrZ235v3Q5mdfX+e+9Fvfvwcka9UQOQTFRD5RAVEPlEBkU9UQOQTFRD5RAVEPlEBkU9UQOQTFRD5RAVEPlEBkU9UQOQTFRD5RAVEPlEBkU9UQOQTFRD5RAVEPlEBkU9UQOQTFRD5RAVEPlEBkU9UQOQTFRD5RAVEPlEBkU9UQOQTFRD5RAVEPlEBkU9UQOQTFRD5RAVEPlEBkU9UQOQTFZTZo0f2+a3m7qubcfJ6IzZXGk1zI4rNUhQnK1Fs1qPYxFFs2hn8eT37uyX8W/wMfhavgdeSr++rYME+H4RPXw3m268H9faVIGzfqIXpUhCmK7UwXa+FaRyEaRvwZ2TZ3y3h33Z+Bj+L11jw67qooEy2Hz9+sdEy56OmeTcrUJuzdbw23gPvJd+/rGbr9sWg3j4f1NN3swK1OVvHa+M98F7y/ctEBUXb3klfbjTN5Sg2q46CG7dVvDfaINtVtGAhfblWb18Owvaqo+DGqvOeeO+F8l0XFRRhZ8e+EMXmUtQ0dxxFVYz9tlxC22R7J+VnN+wLQfj0UlBP78iiKgragjahbbK9RVDBJMXx45cazeRaFJtdVUDlsYs2oq2y/ePy0w/sS0GYXgvCdFcWUFmgbWgj2irbP0kqmISHj56cbMTmnezDliyYsmqjzWi77E9eZubtyaCevpN92FJFU0adD4f19B20XfZnElQwTtvWHm00k6tRbPYcBeKLPfQBfZH9G9aFm/ZoELavBmG6JwvEF2g7+oC+yP6NkwrGZbNpZqPYNBwF4asIfZL9HFQtbM/WwrQhC8JjEfok+zkuKshbo7V7PIqTRUcBTIlkEX2U/T7Muev2eC1MFx0FMC0W0UfZ77ypIE9R6/GZKDYtPehTp4W+yv53MzOfnqmFacsx6NOmhb7K/udJBXmw1h6JmsmcY6CnWzOZQ9/l9Thw8XN7pBa25xwDPeXac+i7vB55UMGotow5FjXNshrcqmiaZVwDeV1m6/ZYLUyX9eBWxjKugbwuo1LBKLYePTkRxWZNDWr1rOFaHFyXc6E9UQvTNcegVs0aroWsm1GoYFgPv0tORbHZdAxmVW3imgQL7VNBmG46BrOScC1wTWT9DEsFw4hau6ejptlxDGKlffZNkpytp4kcREp3ZuafnpZ1NAwVDKrzm5fFq9xZT+z599TA0f/t5PGbWAWDyO55edsgrGwk9sL1J3LASMDtxKj3xCroV+dpAz+wKatRYt/4kMU7gLVRnk6ooB/7z3kr/Kisi41tY9/8C4t3CMvDPidWQT+yCTlqAKvu7Vu7cmCob+05WWf9UMFhsq+H1eBV3af3Eseg0CCG+dpZBb3sT8ypxNyGgXz9ILGvva8HhAbWGnQCkAp6me5ZZcN76xPeOuRoUdZdLyroJpvPqwav6j7+6rEcABpZ//OJVeCC1QdTNhk9F99uGT7vHY9Gvys7VODCpw5ufOowPlieJOvQRQUSFjF6voZtLL7cSOzZur7wlA+ssetnoagKpGz1sBrAqvvjP/jbd9yw2lnWo6SCH8JeCJ4tfZ+If0eJnZ3XF5zyhSX7h+07oYIfyjYdUQNYddf+yScPk4LNU2Rd9lXA2XZPZd4xpxD/2TT2HKdJTgx2AOq1jZUKDnT2KnMMYNW99wXvfScNe7HJ+uyngO/KwSNjf8vZZhOHDQVlffYsYGwvKgeOjP3iv0ZdXJqMblu7qgCy/XnVAFbdn//F24fC1NuXZZ12LeCCNpcuvV/ddFxYmghssi3r1FnA2GpfDhwZe+8B5/sWzXXcgSrgzpkUjgGsuo9W+Oy3aDizQ9arKuDsQBU1gFX3h7/z/rdoOHhG1qsu4Njcl4NHxv7yAz4+K4F1Wa/P/AfOTpMDR/vfvjkuJhVAnmP3TAHjAEA5eGTsrTV+gCsLHMbYtYBxiqUcPDL2Bj/AlQZOFO1awDiKVQ4eGfsnfoFRGjgWt3sB7589rAaw6n7/N36AKwuc7dy1gKPY3JaDR8b+7q8s4LII6untHgXcOdldDWDV/fojFnBZBGG60qOAx3IivPcu3mABl8gzz4JlAcdy8MjYny+oi0jFiXsVMBdwOnABZ3lgoScLeEAs4PI4rIB5C+HAW4hS6XkLwQ9xDvwQVyq9PsTxMZoLH6OVx2GP0Zbk4BG/yCiZpa4FzK+S3fhVcnn0/CqZk3ncOJmnPHpO5uF0SjdOpyyPntMpOaHdjRPay6PnhHYuKXLjkqLy6LmkCLio042LOkuh96LOTgFzWb0Tl9UXr69l9dzYxI0bmxSvr41NuLWUG7eWKl5fW0sBN/dz4+Z+xel7cz/g9qpu3F61QINsr8oNrt24wXVxBtrgGqKmuSMHkIx9k0cMTNzARwx0CpiHvDjxkJfJG+qQFx6z5cZjtiZr6GO2gAcduvGgw8kZ+qBD4FGzbjxqdjJGPmoWeNi3Gw/7Hr+RD/uGh4+enIxisycHsOq+3Ejs2bq+6JSPIEz3ZubtSVmPkgpcGs3kqhxAMvbtW/wtPC5B2L4q69BFBS7b1h6NYtOQA1h1324Ze+E6nwuPQePCTXtU1qGLCrrZbJpZOYBk7Mdf8YlE/tqzsv66UUEvUZwsygEkY9/6hLcSOVqUddeLCnpptHaPR7FpyQGsuq8fJPa199VA0OBa567b47LuelHBYaLW4zNyAMnYT+9xvvCoZubTM7LeDqOCfkTNZE4OIPGpxGjac7LO+qGCflhrj0RNsywHsOo2tjlbbUjLFz+3R2Sd9UMF/doy5lgUmzU5iFW3GiX2jQ9ZxANYm63bY7K++qWCQWw9enIiipMtOYhVt7KR2F/w+fChgjDdPBfaE7KuBqGCQT38LjkVNc2OHMSqu7Oe2POcdtnLTrDQPiXraVAqGEbU2j3NItY++yZJztbTxDF4VbczM//0tKyjYahgWJ3fxLHZlINYYZu4Jvgtg/9VOgaxknAt8vjNe0AFo9i/J+YHO1wDXIuD64L7PHxYkYNZQWuj3vNKKhhV5+lElR+xNc0yroG8LvikjcdFjkGtiuVRnjZ0o4I84DlxFadgos/ou7weB/CsE9MEHYM71dDnYZ/zHkYFecq+dq7C3IkW+ir73w2+MsX3/nKgp1BrmK+HB6GCvO1PAJrmWWzJIvoo+30YTFrBzCvHoE+LxUEn5gxDBeOSzSeepknxDfRJ9nNQmPuKCdyOAvBVY5D5vKNSwThhZUd2b+zzGrs99AF9kf0bFlYf4D4R68AcBeEFtB196HclRV5UMAlYKJqtdvZpyX4bbUbbZX/ygkWMWImL5eSyQMoKbUWb+1mAOQ4qmCTsO5FtnlLmHYB20Ua0VbZ/XLAXAjb0wK40smDKAm1DGw/bt2HcVFCEbBsr7MV211FARUFbLqFtsr2Tgi2VsC9YLUzvygIq0F20qdd2T5OkgqJF/0tfyfYnLmKT7VW8N7aXle0q2k/C9BXskYuNnh1FNVad98R7d9nitEgqKBMcd9A5s2P/4JlxnJ50H6+N98B7yfcvK2y1j/MicOhJLUzvy4LLwX28Nt7Dta1/maigzHCOHQ5jxImiOBY3O9v5dhQnK1Fs1qPYxNkHQ8Cf17O/u41/i5/Bz+I18Fry9X2Fs9NwACBOscRRrDhPOKint3GyO46mqoVp3Pmwtf/hMEaGv9v/N/i37Sudn8VriHPYyk4FRD5RAZFPVEDkExUQ+UQFRD5RAZFPVEDkExUQ+UQFRD5RAZFPVEDkExUQ+UQFRD5RAZFPVEDkExUQ+UQFRD5RAZFPVEDkExUQ+UQFRD5RAZFPVEDkExUQ+UQFRD5RAZFPVEDkExUQ+UQFRD5RAZFPVEDkExUQ+UQFRD5RAZFPVEDkExUQ+UQFRD5RAZFPvgfFJkIQyup+iwAAAABJRU5ErkJggg==" InformativeScreenshot="63296bc0a670f15a53fc118f0ccacc31.jpg" Reference="gkl1JZxwZEOAMvG20JjdZw/nS_x6Yne80-igVXKYF-QJA" Selector="&lt;html app='chrome.exe' title='ACME Demo App by Applitools' /&gt;" Url="https://demo.applitools.com/" Version="V2">
+            <uix:TargetApp.Arguments>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.Arguments>
+            <uix:TargetApp.WorkingDirectory>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.WorkingDirectory>
+          </uix:TargetApp>
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>
