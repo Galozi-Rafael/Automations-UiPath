@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dAKLdILXw0KGBPWiB0goow" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallengeocr.azurewebsites.net" CVScreenId="680b95c7-a59e-41a4-817b-53e499d38a29" CvElementArea="34, 924, 588, 78" CvTextArea="299, 954, 58, 17" CvTextArgument="START" CvType="Button" DesignTimeRectangle="37, 926, 582, 75" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='start' tag='BUTTON' /&gt;" Guid="416c854a-a130-4869-aaa6-309ff88994ce" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Automation Challenge - OCR' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c2a37039709fec315a92333ed1de3e16.png" xmlns="">0u59HdjXwYE6Q8f1fNTWMUg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,6 @@
+{
+  "Name": "RPA OCR Invoices",
+  "ProjectType": "Process",
+  "Description": "OCR Invoices\r\n",
+  "MainFile": "Main.xaml"
+}

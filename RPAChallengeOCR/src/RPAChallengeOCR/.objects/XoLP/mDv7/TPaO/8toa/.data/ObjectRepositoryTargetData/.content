@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JpaJ6gICPkS_YLKeEQ6e3A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallengeocr.azurewebsites.net" CVScreenId="fa620118-e421-432c-a4cd-cfbe347040b3" CvElementArea="177, 459, 558, 26" CvType="InputBox" DesignTimeRectangle="183, 465, 532, 15" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="91f2319e-ec0c-43d1-ac7e-100ad1228a78" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Abrir' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="fa620118-e421-432c-a4cd-cfbe347040b3" CvTextArea="137, 465, 37, 12" CvTextArgument="Nome:" CvType="Text" DesignTimeRectangle="138, 464, 36, 15" ElementType="Text" FuzzySelectorArgument="&lt;wnd ctrlid='1090' title='&amp;amp;Nome:' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='&amp;amp;Nome:' /&gt;" Guid="ec26edbb-ca4b-4a63-9d2c-e75c2ed7ce65" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fedb8f34bca6a3a78c72a03104941f24.png" xmlns="">0l6dNNyx_WkaueLWkNr4KHA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

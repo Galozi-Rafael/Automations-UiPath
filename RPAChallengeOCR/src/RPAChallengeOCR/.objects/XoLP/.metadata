@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Automation Challenge - OCR",
+  "Type": "App",
+  "Id": "XoLP0MSehUKck85fGMU21g",
+  "Reference": "bVzTafOuqUqA4exYcL7JJA/XoLP0MSehUKck85fGMU21g",
+  "Created": "2025-10-16T23:02:27.3248062Z",
+  "Updated": "2025-10-16T23:02:27.3248062Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
