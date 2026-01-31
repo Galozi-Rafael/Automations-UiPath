@@ -19,4 +19,5 @@ A --> C[MoverArquivos]
 A --> D[MonitorarEmail]
 A --> E[ExtrairTabelaWeb]
 A --> F[RPAChallenge]
+A --> G[RPAChallengeOCR]
 ```
