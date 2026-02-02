@@ -35,4 +35,25 @@ B --> C[Login]
 C --> D[Raspagem de dados]
 D --> E[Salva em uma planilha do Excel]
 ```
-## Estrutura do projeto
+## Arquitetura de pastas
+
+```mermaid
+flowchart LR
+A[ExtrairTabelaWeb] --> B[src]
+A --> C[.gitignore]
+A --> D[README.md]
+
+
+B --> E[ExtrairTabelaWeb]
+
+E --> F[.objects]
+E --> G[.storage/.runtime]
+E --> H[Main.xaml]
+E --> I[project.uiproj]
+
+E --> J[Servs]
+E --> M[Data]
+
+J --> K[TableExtractionService.xaml]
+J --> L[WebService.xaml]
+```
