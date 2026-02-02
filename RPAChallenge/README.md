@@ -44,4 +44,22 @@ F -- Fim do Loop --> H[Fim]
 ```
 ## Arquitetura de Pasta
 
+```mermaid
+flowchart LR
+A[RPAChallenge] --> B[src]
+A --> C[.gitignore]
+A --> D[README.md]
 
+
+B --> E[RPAChallenge]
+
+E --> F[.objects]
+E --> G[.storage]
+E --> H[Main.xaml]
+E --> I[project.uiproj]
+
+E --> J[Servs]
+
+J --> K[ExcelService.xaml]
+J --> L[WebService]
+```
