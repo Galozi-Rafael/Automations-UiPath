@@ -44,7 +44,7 @@ flowchart TD
 
 A[Início] --> B[Navega até o site]
 B --> C[Clicar em Start]
-C --> D{Se a data de vencimento\n <= hoje}
+C --> D{Se a data de vencimento <br> >= hoje}
 D -- Sim --> E[Raspar os dados da tabela]
 D -- Não --> F[Não extrair dados]
 E --> G[Baixar Invoices]
