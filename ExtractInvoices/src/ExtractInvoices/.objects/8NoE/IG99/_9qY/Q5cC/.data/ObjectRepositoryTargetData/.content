@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_CTTRIgiGUOBZc4xBCErZQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/invoices/search" CVScreenId="198d47de-36b4-4c5f-bd84-d2aca9b75f65" CvElementArea="466, 570, 73, 37" CvTextArea="480, 582, 46, 13" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="468, 572, 70, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='buttonSearch' tag='BUTTON' /&gt;" Guid="38a280fe-4f0f-436e-97c8-4bc786a459ca" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Search' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="eb84e5eb4ef5a21a4d2295b1088085dc.png" xmlns="">0WcbpP7tKvUOvyb9bwYAvaw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

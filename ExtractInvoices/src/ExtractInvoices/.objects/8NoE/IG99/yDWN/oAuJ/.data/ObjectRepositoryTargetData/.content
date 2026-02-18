@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TSylUmJQlkOraqYfgkOweA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/invoices/search-by-number/109930" CVScreenId="6bb61042-74be-42c4-a10c-5a818e531768" CvType="AnyWordGroup" DesignTimeRectangle="870, 503, 275, 37" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableCol='3' tableRow='2' tag='TD' /&gt;" Guid="e3d68dad-b120-4db3-9867-4be7ebbb6339" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Search Results' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6bb61042-74be-42c4-a10c-5a818e531768" CvTextArea="877, 478, 82, 13" CvTextArgument="Invoice Item" CvType="Text" DesignTimeRectangle="870, 466, 275, 37" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Invoice Item' type='' tag='TH' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Invoice Item' /&gt;" Guid="dab737a3-6f73-4993-afc6-f9a8826c0c74" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6b85c76f80406afed6f20d45e33d5b8d.png" xmlns="">0SKFv1TMwNEytXX1CEWE-7w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

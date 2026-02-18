@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SbQ2tD1Y4UGcAojzzTxBFw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/invoices/search-by-number/109930" CVScreenId="6bb61042-74be-42c4-a10c-5a818e531768" CvType="AnyWordGroup" DesignTimeRectangle="1314, 503, 153, 37" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableCol='5' tableRow='2' tag='TD' /&gt;" Guid="79aae465-9927-4948-8b04-76a149b34747" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Search Results' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6bb61042-74be-42c4-a10c-5a818e531768" CvTextArea="1321, 478, 31, 13" CvTextArgument="Date" CvType="Text" DesignTimeRectangle="1314, 466, 153, 37" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Date' type='' tag='TH' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Date' /&gt;" Guid="32ae68ee-ce2d-4c82-b4e6-1b28a8e86463" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3266672256cb973968081ea39ad14329.png" xmlns="">0ZtjA0heJyEC88wocCfNWKA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
